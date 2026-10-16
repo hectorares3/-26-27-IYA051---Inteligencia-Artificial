@@ -101,7 +101,7 @@ El resultado final no deberá ser una sucesión opaca de condiciones programadas
 Para cada nodo deberá justificarse la característica utilizada y el umbral seleccionado a partir de mediciones.  
 
 ## 10. Entregables y pruebas:
-* Un Trabajo escrito que consistirá en:  
+* Un **Trabajo escrito** que consistirá en:  
   1. Contextualización del problema y requisitos.  
   2. Montaje físico, con cámara, tapete e iluminacion (iluminación opcional).  
   3. Diagrama del pipeline completo.  
@@ -112,12 +112,11 @@ Para cada nodo deberá justificarse la característica utilizada y el umbral sel
   8. Resultados sobre un conjunto de pruebas.  
   9. Medida cuantitativa de aciertos y errores.  
   10. Código del programa funcional de visión artificial (bien comentado).  
-  11. Demostración presencial con escenas propuestas por el profesor.  
-  Condición: un sistema que solo funcione con las imágenes empleadas durante su desarrollo no podrá superar el aprobado, aunque su demostración preparada funcione correctamente.  
+  **Condición: un sistema que solo funcione con las imágenes empleadas durante su desarrollo no podrá superar el aprobado, aunque su demostración preparada funcione correctamente.**  
 
-* Una demo en video.   
+* Una demo en **video**: El alumno presenta su trabajo en una demo en video de aproximadamente 10 min donde hará pruebas diseñadas por él mismo, tratando de demostrar lo bueno que es su sistema de visión artificial.   
 
-* Una Prueba en tiempo real: Demostración en vivo con pruebas planteadas por el profesor de la asignatura: Examen parcial.  
+* Una **Prueba en tiempo real**: Demostración en vivo con pruebas planteadas por el profesor de la asignatura: **Examen parcial**.  
 
 [Deadline: fecha campus] 
 
