@@ -101,8 +101,7 @@ El resultado final no deberá ser una sucesión opaca de condiciones programadas
 Para cada nodo deberá justificarse la característica utilizada y el umbral seleccionado a partir de mediciones.  
 
 ## 10. Entregables y pruebas:
-Un Trabajo escrito que consistirá en:  
-  Todos los retos deberán entregar exactamente los mismos elementos:  
+* Un Trabajo escrito que consistirá en:  
   1. Contextualización del problema y requisitos.  
   2. Montaje físico, con cámara, tapete e iluminacion (iluminación opcional).  
   3. Diagrama del pipeline completo.  
@@ -116,9 +115,9 @@ Un Trabajo escrito que consistirá en:
   11. Demostración presencial con escenas propuestas por el profesor.  
   Condición: un sistema que solo funcione con las imágenes empleadas durante su desarrollo no podrá superar el aprobado, aunque su demostración preparada funcione correctamente.  
 
-Una demo en video.   
+* Una demo en video.   
 
-Una Prueba en tiempo real: Demostración en vivo con pruebas planteadas por el profesor de la asignatura: Examen parcial.  
+* Una Prueba en tiempo real: Demostración en vivo con pruebas planteadas por el profesor de la asignatura: Examen parcial.  
 
 [Deadline: fecha campus] 
 
