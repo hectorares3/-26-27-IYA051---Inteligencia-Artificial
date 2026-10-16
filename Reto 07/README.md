@@ -101,18 +101,19 @@ El resultado final no deberá ser una sucesión opaca de condiciones programadas
 Para cada nodo deberá justificarse la característica utilizada y el umbral seleccionado a partir de mediciones.  
 
 ## 10. Entregables y pruebas [a completar]
-Trabajo escrito:  
+Un Trabajo escrito que consistirá en:  
 Todos los retos deberán entregar exactamente los mismos elementos:  
-1. Montaje físico, con cámara, tapete e iluminacion (iluminación opcional).  
-2. Programa funcional de visión artificial.  
+1. Contextualización del problema y requisitos.  
+2. Montaje físico, con cámara, tapete e iluminacion (iluminación opcional).  
 3. Diagrama del pipeline completo.  
 4. Explicación del método de segmentación.  
 5. Tabla de las características extraídas.  
 6. Árbol de decisión utilizado.  
-7. Justificación experimental de los umbrales.  
+7. Justificación experimental de los parámetros y umbrales utilizados en cada función.  
 8. Resultados sobre un conjunto de pruebas.  
 9. Medida cuantitativa de aciertos y errores.  
-10. Demostración presencial con escenas propuestas por el profesor.  
+10. Código del programa funcional de visión artificial (bien comentado).  
+11. Demostración presencial con escenas propuestas por el profesor.  
 Condición: un sistema que solo funcione con las imágenes empleadas durante su desarrollo no podrá superar el aprobado, aunque su demostración preparada funcione correctamente.  
 
 Demo en video.   
