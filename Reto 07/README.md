@@ -11,8 +11,8 @@ El objetivo no es utilizar modelos entrenados de aprendizaje automático, sino r
 Cada alumno eligirá uno de los retos indicados en esta convocatoria, de tal forma que los retos se hayan distribuido equitativamente.  
 ### 2. Montaje común obligatorio
 Para garantizar que los trabajos tengan una dificultad comparable, todos utilizarán un montaje experimental equivalente.  
-Requisitos: 
-Zona de trabajo	Tapete verde mate de Tamaño mínimo	0,50 × 0,50 m  
+Requisitos:  
+Zona de trabajo: Tapete tipo fieltro verde mate de Tamaño mínimo	0,50 × 0,50 m (area aproximada, dependerá de lo se encuentre)  
 Cámara	Una única cámara fija en Posición cenital y aproximadamente perpendicular al tapete con un Campo de visión que debe visualizarse completamente la zona útil del tapete  
 Resolución a elección del alaumno, aconsejable que sea lo suficiente para distinguir la característica más pequeña necesaria para resolver el reto
 Iluminación a elección del alumno  
@@ -33,12 +33,12 @@ Entre las características permitidas se encuentran:
 - orientación;  
 - excentricidad;  
 - número de componentes/regiones;
-- momentos;
-- centroide;
-- envolvente convexa;
-- descriptores geométricos;
-- color en RGB, HSV, Lab u otro espacio justificable;
-- análisis de regiones internas del objeto.
+- momentos;  
+- centroide;  
+- envolvente convexa;  
+- descriptores geométricos;  
+- color en RGB, HSV, Lab u otro espacio justificable;  
+- análisis de regiones internas del objeto;  
 - etc.   
 El alumno deberá poder explicar qué característica utiliza, cómo la calcula y por qué permite separar unas clases de otras.  
 
@@ -73,16 +73,16 @@ Aquí introduciría restricciones para evitar que algunos proyectos se disparen 
 * Tres en raya. Tablero completo visible. Debe reconocer X, O y vacío independientemente de la orientación global del tablero. Como mínimo se probarán 10 configuraciones distintas, incluyendo victoria de X, victoria de O, empate y partida incompleta.  
 * Dominó. Trabajar con un subconjunto suficiente de fichas, por ejemplo 0–0 a 6–6, pero no exigir reconocer simultáneamente las 28 clases mediante una característica distinta. El sistema debe detectar cada ficha, localizar su división central, contar los puntos de ambas mitades y generar automáticamente su identidad. La dificultad está en la descomposición jerárquica de la imagen.  
 * Baraja española. Recomendaría acotar el problema, porque reconocer las 40 cartas completas mediante visión clásica puede resultar desproporcionado. Por ejemplo, reconocer los cuatro palos y los valores 1–7, o proporcionar un subconjunto de 16–20 cartas. Debe identificar carta, posición y orientación.  
-Dados. Entre 2 y 6 dados simultáneamente. Deben aparecer en posiciones y orientaciones arbitrarias. Se detectará el contorno del dado y posteriormente los puntos. Además del valor individual, se deberá reconocer una combinación definida por el profesor.  
-Dados de póker. Cinco dados simultáneos. Identificación de las seis caras y posterior clasificación automática de la jugada. Para igualarlo con dados convencionales, la identificación del símbolo deberá basarse en características geométricas/color, no en plantillas completas de imagen.  
-Puzle infantil de cubos. Entre 6 y 12 elementos. Cada pieza deberá poder distinguirse mediante combinación de color, geometría y/o patrón sencillo. No exigir reconstrucción 3D. El resultado será identificar cada pieza y determinar si la composición propuesta es correcta, o si hay alguna pieza que girar o reorientar.  
-Monedas y billetes. Utilizar un conjunto acotado de denominaciones. Recomendaría monedas de euro y, como máximo, 3–4 denominaciones de billetes. El sistema deberá distinguir denominación y calcular automáticamente el importe total. Debe soportar rotaciones.  
-Clasificador industrial. Al menos 3 familias de tornillos, tuercas y arandelas y 4 variantes dentro de alguna familia. Deberá utilizar explícitamente área, perímetro y excentricidad, pudiendo añadir circularidad, relación de aspecto u otras características. Como salida: clase, subtipo y conteo.  
-LEGO. Seleccionar entre 4 y 6 tipos geométricamente distinguibles, disponibles en varios colores. La clase final deberá depender de al menos dos atributos, por ejemplo pieza = tipo geométrico + color. Esto obliga a construir un árbol de decisión real.  
-Productos alimentarios. Elegir una sola familia: frutas pequeñas, legumbres, frutos secos o caramelos. Entre 4 y 6 clases, diferenciables mediante combinación de tamaño, forma y color. Debe incluir conteo por categoría.  
-Herramientas. Entre 5 y 8 tipos de herramienta claramente distinguibles por silueta: llave, destornillador, alicate, martillo, etc. Deberá funcionar con orientación arbitraria y producir un inventario.  
-Pilas. Utilizar 4–6 clases, por ejemplo AAA, AA, C, D y 9 V si están disponibles y varias marcas (se pueden incluir otros modelos tambien). Identificación mediante dimensiones relativas, área, relación de aspecto y geometría. Como dificultad adicional, determinar orientación/polaridad cuando visualmente sea posible, determinar precios totales.  
-Componentes electrónicos. Acotar a 5–8 familias visualmente diferenciables: resistencias, condensadores electrolíticos, LED, potenciómetros, circuitos integrados, etc. No exigir leer códigos impresos ni determinar el valor eléctrico. Se evaluará la clasificación morfológica.  
+* Dados. Entre 2 y 6 dados simultáneamente. Deben aparecer en posiciones y orientaciones arbitrarias. Se detectará el contorno del dado y posteriormente los puntos. Además del valor individual, se deberá reconocer una combinación definida por el profesor. Pueden ser cualquier tipo de dado. 
+* Dados de póker. Cinco dados simultáneos. Identificación de las seis caras y posterior clasificación automática de la jugada. Para igualarlo con dados convencionales, la identificación del símbolo deberá basarse en características geométricas/color, no en plantillas completas de imagen.  
+* Puzle infantil de cubos. Entre 6 y 12 elementos. Cada pieza deberá poder distinguirse mediante combinación de color, geometría y/o patrón sencillo. No exigir reconstrucción 3D. El resultado será identificar cada pieza y determinar si la composición propuesta es correcta, o si hay alguna pieza que girar o reorientar.  
+* Monedas y billetes. Utilizar un conjunto acotado de denominaciones. Recomendaría monedas de euro y, como máximo, 3–4 denominaciones de billetes. El sistema deberá distinguir denominación y calcular automáticamente el importe total. Debe soportar rotaciones.  
+* Clasificador industrial. Al menos 3 familias de tornillos, tuercas y arandelas y 4 variantes dentro de alguna familia. Deberá utilizar explícitamente área, perímetro y excentricidad, pudiendo añadir circularidad, relación de aspecto u otras características. Como salida: clase, subtipo y conteo.  
+* LEGO. Seleccionar entre 4 y 6 tipos geométricamente distinguibles, disponibles en varios colores. La clase final deberá depender de al menos dos atributos, por ejemplo pieza = tipo geométrico + color. Esto obliga a construir un árbol de decisión real.  
+* Productos alimentarios. Elegir una sola familia: frutas pequeñas, legumbres, frutos secos o caramelos. Entre 4 y 6 clases, diferenciables mediante combinación de tamaño, forma y color. Debe incluir conteo por categoría.  
+* Herramientas. Entre 5 y 8 tipos de herramienta claramente distinguibles por silueta: llave, destornillador, alicate, martillo, etc. Deberá funcionar con orientación arbitraria y producir un inventario.  
+* Pilas. Utilizar 4–6 clases, por ejemplo AAA, AA, C, D y 9 V si están disponibles y varias marcas (se pueden incluir otros modelos tambien). Identificación mediante dimensiones relativas, área, relación de aspecto y geometría. Como dificultad adicional, determinar orientación/polaridad cuando visualmente sea posible, determinar precios totales.  
+* Componentes electrónicos. Acotar a 5–8 familias visualmente diferenciables: resistencias, condensadores electrolíticos, LED, potenciómetros, circuitos integrados, etc. No exigir leer códigos impresos ni determinar el valor eléctrico. Se evaluará la clasificación morfológica.  
 
 ## 8. Condiciones de prueba comunes
 Esta parte es importante para que el parcial mida realmente visión artificial y no una demostración preparada.
