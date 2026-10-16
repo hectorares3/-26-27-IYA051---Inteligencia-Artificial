@@ -114,7 +114,7 @@ Para cada nodo deberá justificarse la característica utilizada y el umbral sel
   10. Código del programa funcional de visión artificial (bien comentado).  
 **Condición: se deberá utilizar LLM para la creación del texto escrito, figuras y tablas; pero esto no quiere decir que sea copiar-pegar, habrá que ser MUY crítico con lo que salga de la IA, para que el contenido del trabajo escrito sea útil.**  
 
-* Una demo en **video**: El alumno presenta su trabajo en una demo en video de aproximadamente 7 a 10 min donde hará pruebas diseñadas por él mismo, tratando de demostrar lo bueno que es su sistema de visión artificial.   
+* Una demo en **video**: El alumno presenta su trabajo en una demo en video de aproximadamente 7 a 10 min donde hará pruebas diseñadas por él mismo, tratando de demostrar lo bueno que es su sistema de visión artificial. El video será subido a la cuenta de YouTube de la cuenta de alumno de la universidad. Se incluirá el link en el trabajo escrito en la primera página (portada).    
 
 * Una **Prueba en tiempo real**: Demostración en vivo con pruebas planteadas por el profesor de la asignatura: **Examen parcial**.  
 **Condición: un sistema que solo funcione con las imágenes empleadas durante su desarrollo no podrá superar el aprobado, aunque su demostración preparada funcione correctamente.**  
